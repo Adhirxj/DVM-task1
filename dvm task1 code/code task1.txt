@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess.com</title>
+    <link rel="stylesheet" href="styles.css"> <!-- c:\Users\DELL\Desktop\styles now2 -->
+</head>
+<body>
+    <header>
+        <style>
+            body {
+                background-color: black; 
+            }
+        </style>
+        <div class="logo">
+            <h1 style="color:white;">Chess.com</h1>
+        </div>
+        <nav>
+            <ul>
+                <style>
+                    .image-button {
+                        background-color: black;color: white; 
+                        border: none;            cursor: pointer;             display: flex;            align-items: center; 
+                    }
+                    .button-image {
+                        width: 20px; 
+                        height: 20px;          
+                        margin-right: 5px;      
+                                  }
+                </style>           
+            <li><button class="image-button">
+                <img src="Bpcc random/play.webp"class="button-image"; style="background-color:black;color: white;">Play</button></li>
+            <li><button class="image-button">
+                <img src="Bpcc random/puzzle.png"class="button-image";style="background-color:black;color: white;">Puzzle</button></li>
+            <li><button class="image-button">
+                <img src="Bpcc random/Learn.jpg"class="button-image";style="background-color:black;color: white;">Learn</button></li>
+            <li> <button class="image-button">
+                <img src="Bpcc random/watch.jpg"class="button-image";style="background-color:black;color: white;">Watch</button></li>
+            <li><button class="image-button">
+                <img src="Bpcc random/news.jpg"class="button-image";style="background-color:black;color: white;">News</button></li>
+            <li><button class="image-button">
+                <img src="Bpcc random/social.jpg"class="button-image";style="background-color:black;color: white;">Social</button></li>
+            <li> <button class="image-button">
+                <img src="Bpcc random/more.png"class="button-image";style="background-color:black;color: white;">More</button></li>
+         </ul>   
+         <div class="image-button:width 20px; height: 20px; margin-right: 5px">
+             </div>
+      
+    <style>
+        .search-container {
+            display: flex;
+            justify-content:left;
+            margin-top: 50px; 
+        }
+    </style>
+    <div class="search-container">
+            <form action="/search" method="get"> <!-- Change action to your search handling URL -->
+                <input style="color: white;" type="text" class="search-bar" placeholder="Search..." name="query" required>
+                <button style="color: black;" type="submit" class="search-button">Search</button>
+            </form>
+        </div>
+    <ul style="nav-left: auto;">
+            <li> <button style="background-color:green;color: white;">Sign up</button></li>
+            <li> <button style="background-color:black;color: white;">Login</button></li>
+             </ul>
+        </nav>
+    </header>
+    <style>
+        .flex-container {
+            display: flex; 
+            justify-content: center; 
+            align-items: top;
+            top: 120px;
+            height: 10px; 
+        }
+    </style>
+    <div class="flex-container">
+    <img src="Bpcc random/chess board.png" width="400px" height="440px">
+    </div>
+    <section class="hero">
+        <style>
+        .right-text {
+            text-align: right; 
+        }
+    </style>
+    <style>
+        .float-button {
+            float: right;
+            margin: 0px; 
+        }
+    </style>
+        <h1 class="right-text" style="color: white;">Play Chess Online on the #1 Site!</h1>
+            <p class="right-text" style="color: white;">15,212,649 Games Today             ,   186,327 Playing Now</p>
+            <button style="background-color: green;" class="float-button">Play Online</button>
+             <p class="right-text" style="color: white;">Play with some one on your Level</p>
+            <button class="float-button">Play Computer</button>
+            <p class="right-text" style="color: white;">Play vs customizable training bots</p>
+    </section>
+    <style>
+    .absolute-text {
+            position: absolute; 
+            top: 127%; 
+            left: 50%; 
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <style>
+        .container {
+            position: absolute;
+            top: 900px; 
+            left: 530px; 
+            width: 900px; 
+            height: 380px; 
+            background-color: 	rgb(128, 128, 128);
+            border:7px;color: black ;
+        }
+    </style>
+     <div class="container">
+        <p><h1>Solve Chess Puzzles</h1></p>
+     </div>
+     <style>
+     .container {
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 300px; 
+            border: 1px black;
+        }
+</style>
+<div class="container">
+   <div class="container"> 
+    <img src="Bpcc random/chess board mid.png" width="200px" height="220px">
+    </div>
+    <footer>
+        <p>&copy; 2024 Chess.com. All rights reserved.</p>
+        <div class="socials">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
